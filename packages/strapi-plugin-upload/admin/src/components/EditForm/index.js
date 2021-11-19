@@ -304,7 +304,8 @@ const EditForm = forwardRef(
                         <CropWrapper>
                           <img
                             src={src}
-                            alt={get(fileToEdit, ['file', 'name'], '')}
+                            // alt={get(fileToEdit, ['file', 'name'], '')}
+                            alt=" Data is not shown for security reasons. Please confirm the data on the draft site."
                             ref={isCropping ? imgRef : null}
                           />
                         </CropWrapper>
